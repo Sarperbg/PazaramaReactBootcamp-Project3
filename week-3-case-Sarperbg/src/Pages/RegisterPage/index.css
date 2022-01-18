@@ -1,0 +1,335 @@
+.main {
+  overflow: hidden;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 180.00000447034836, 219.0000021457672, 1) 0%,
+    rgba(0, 131.00000739097595, 176.00000470876694, 1) 100%
+  );
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+}
+.background-image {
+  opacity: 0.10000000149011612;
+  width: 940px;
+  height: 1080px;
+  position: absolute;
+  left: -230px;
+  top: 0px;
+  background-image: url(../../assets/images/avatar_makata_vespa_04_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10000000149011612);
+  width: 1496px;
+  height: 849px;
+  position: absolute;
+  left: 212px;
+  top: 115px;
+}
+.container-background-part-1 {
+  background-color: rgba(255, 255, 255, 1);
+  width: 1366px;
+  height: 849px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.container-background-part-2 {
+  background-color: rgba(
+    226.0000017285347,
+    238.00000101327896,
+    245.00000059604645,
+    1
+  );
+  width: 489px;
+  height: 849px;
+  position: absolute;
+  left: 937px;
+  top: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.container-background-part-3 {
+  width: 1132px;
+  height: 849px;
+  position: absolute;
+  left: 364px;
+  top: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-image: url(../../assets/images/avatar_makata_vespa_04_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-form {
+  width: 401px;
+  height: 595px;
+  position: absolute;
+  left: 126px;
+  top: 118px;
+}
+.your-logo {
+  color: rgba(70.00000342726707, 86.00000247359276, 133.00000727176666, 1);
+  width: 105px;
+  height: 29px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  font-family: Gilroy;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.login-text {
+  color: rgba(65.0000037252903, 64.00000378489494, 66.00000366568565, 1);
+  width: 96px;
+  height: 46px;
+  position: absolute;
+  left: 1px;
+  top: 42px;
+  font-family: Gilroy;
+  text-align: left;
+  font-size: 38px;
+  letter-spacing: 0;
+}
+.email-label {
+  color: rgba(65.0000037252903, 64.00000378489494, 66.00000366568565, 1);
+  width: 34px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 116px;
+  font-family: Gilroy;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.email-input {
+  background-color: rgba(255, 255, 255, 1);
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  left: 1px;
+  top: 140px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 1px solid
+    rgba(188.0000039935112, 190.0000038743019, 192.00000375509262, 1);
+  text-indent: 23px;
+}
+.email-input::placeholder {
+  color: rgba(188.0000039935112, 190.0000038743019, 192.00000375509262, 1);
+  position: absolute;
+  top: 18px;
+  font-family: Gilroy;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.password-label {
+  color: rgba(65.0000037252903, 64.00000378489494, 66.00000366568565, 1);
+  width: 61px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 222px;
+  font-family: Gilroy;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.password-input {
+  background-color: rgba(255, 255, 255, 1);
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  left: 1px;
+  top: 246px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 1px solid
+    rgba(188.0000039935112, 190.0000038743019, 192.00000375509262, 1);
+  text-indent: 23px;
+}
+.password-input::placeholder {
+  color: rgba(188.0000039935112, 190.0000038743019, 192.00000375509262, 1);
+  position: absolute;
+  top: 18px;
+  font-family: Gilroy;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.google {
+  background-color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: 50px;
+  position: absolute;
+  left: 2px;
+  top: 496px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 1px solid
+    rgba(188.0000039935112, 190.0000038743019, 192.00000375509262, 1);
+}
+.github {
+  background-color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: 50px;
+  position: absolute;
+  left: 138px;
+  top: 496px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 1px solid
+    rgba(188.0000039935112, 190.0000038743019, 192.00000375509262, 1);
+}
+.facebook {
+  background-color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: 50px;
+  position: absolute;
+  left: 274px;
+  top: 496px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 1px solid
+    rgba(188.0000039935112, 190.0000038743019, 192.00000375509262, 1);
+}
+.continue-text {
+  color: rgba(121.00000038743019, 137.00000703334808, 149.00000631809235, 1);
+  width: 103px;
+  height: 16px;
+  position: absolute;
+  left: 150px;
+  top: 464px;
+  font-family: Gilroy;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.register-text {
+  color: rgba(188.0000039935112, 190.0000038743019, 192.00000375509262, 1);
+  width: 178px;
+  height: 16px;
+  position: absolute;
+  left: 39px;
+  top: 578px;
+  font-family: Gilroy;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.register-text a {
+  color: rgba(70.00000342726707, 86.00000247359276, 133.00000727176666, 1);
+  width: 103px;
+  margin-left: 5px;
+  position: absolute;
+  text-decoration: auto;
+}
+.forgot-password-link {
+  color: rgba(70.00000342726707, 86.00000247359276, 133.00000727176666, 1);
+  width: 98px;
+  height: 14px;
+  position: absolute;
+  left: 1px;
+  top: 313px;
+  font-family: Gilroy;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-decoration: auto;
+}
+
+.sign-in-button {
+  background-color: rgba(
+    169.00000512599945,
+    49.00000087916851,
+    89.00000229477882,
+    1
+  );
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  left: 1px;
+  top: 369px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Gilroy;
+  font-size: 20px;
+  letter-spacing: 0;
+  text-decoration: auto;
+  border: 0px;
+}
+
+.sign-in-button:hover {
+  background-color: rgb(189, 55, 100);
+}
+
+.google-logo {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 53px;
+  top: 509px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.github-logo {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 188px;
+  top: 508px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.show-password {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 363px;
+  top: 263px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.facebook-logo {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 324px;
+  top: 509px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}

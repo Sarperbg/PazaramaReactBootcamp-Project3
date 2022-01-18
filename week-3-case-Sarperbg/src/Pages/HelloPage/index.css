@@ -1,0 +1,69 @@
+body {
+  position: relative;
+  width: 1366px;
+  height: 768px;
+  background: #ffffff;
+}
+.hello-page-container {
+  position: absolute;
+  width: 530px;
+  height: 587px;
+  left: 50px;
+  top: 90px;
+}
+.hp-title {
+  position: absolute;
+  width: 182px;
+  height: 58px;
+  left: 50px;
+  top: 90px;
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 47.7488px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.hp-text {
+  position: absolute;
+  width: 530px;
+  height: 300px;
+  left: 50px;
+  top: 183px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 188.8%;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #000000;
+}
+.hp-btnCoffee {
+  position: absolute;
+  width: 530px;
+  height: 90px;
+  left: 50px;
+  top: 587px;
+  border-radius: 100px;
+  background: linear-gradient(0deg, #ea5050 0%, #ee745b 100%);
+  cursor: -webkit-grab;
+}
+
+.hp-btnText {
+  font-family: Poppins;
+  font-style: Bold;
+  font-size: 25px;
+  line-height: 41px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.image {
+  position: absolute;
+  width: 944px;
+  height: 546px;
+  left: 631px;
+  top: 111px;
+}
